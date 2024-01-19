@@ -1,0 +1,17 @@
+ymaps{
+    /* width: 100% !important;
+    height: 100% !important; */
+    border-radius: 20px;
+    
+}
+.ymaps-2-1-79-map{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.ymaps-2-1-79-map-copyrights-promo{
+    left: 20px !important;
+    transform: scale(1.2);
+}
+
+.ymaps-2-1-79-gototech, .ymaps-2-1-79-copyright__wrap{
+    display: none !important;
+}

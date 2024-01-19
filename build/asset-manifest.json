@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a84aabf6.css",
+    "main.js": "/static/js/main.c3aec778.js",
+    "static/js/787.6b3ebce6.chunk.js": "/static/js/787.6b3ebce6.chunk.js",
+    "static/media/whatsapp.png": "/static/media/whatsapp.a30e22e789157a77c4b9.png",
+    "static/media/документы.png": "/static/media/документы.bc3b8986e8e1c376f510.png",
+    "static/media/firefighter-head.svg": "/static/media/firefighter-head.8af0fef9e8af6d0e529a9cbcaad45f39.svg",
+    "static/media/монтаж.png": "/static/media/монтаж.edbada2b60fac4d96231.png",
+    "static/media/каска.png": "/static/media/каска.6b5aa8c99a1d235ee01f.png",
+    "static/media/telegram.png": "/static/media/telegram.d77c2567ad173f0e9083.png",
+    "static/media/logo02.svg": "/static/media/logo02.ce7f8ffb84ffe32e2e5df968e4dec8c7.svg",
+    "static/media/logo01.svg": "/static/media/logo01.b3edf4b9b1a2d662d8f383498b18c9c8.svg",
+    "static/media/mail.png": "/static/media/mail.21929253c62d1334966f.png",
+    "static/media/расчеты.png": "/static/media/расчеты.b6ddda9f62e68f1a02da.png",
+    "static/media/gost.png": "/static/media/gost.3ddcd6b673b98de6cfb9.png",
+    "static/media/111.png": "/static/media/111.2a584fdd45d95b70e1f7.png",
+    "static/media/logo03.svg": "/static/media/logo03.db1a15c4511e7f9593dacc44cccfb284.svg",
+    "static/media/logo06.svg": "/static/media/logo06.94de1f70a559c74f39e920f35dcfcfdd.svg",
+    "static/media/logo05.svg": "/static/media/logo05.c0d397a579acb74c032ba06be3a5f534.svg",
+    "static/media/планы.png": "/static/media/планы.735e470745de530430ed.png",
+    "static/media/222.png": "/static/media/222.ea15adbfb7cdb4ec0c82.png",
+    "static/media/logo04.svg": "/static/media/logo04.6dc1762688427a605845ff171593f533.svg",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/категории.svg": "/static/media/категории.c85ee5564bfde2778d0fc36919a78e88.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.a84aabf6.css.map": "/static/css/main.a84aabf6.css.map",
+    "main.c3aec778.js.map": "/static/js/main.c3aec778.js.map",
+    "787.6b3ebce6.chunk.js.map": "/static/js/787.6b3ebce6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a84aabf6.css",
+    "static/js/main.c3aec778.js"
+  ]
+}
