@@ -41,14 +41,14 @@ export default function TopNavbar() {
                 Главная
               </Link>
             </li>
-            {/* <li className="semiBold font15 pointer">
-              <Link activeClass="active" style={{ padding: "10px 15px" }} to="services" spy={true} smooth={true} offset={-80}>
-                Услуги
-              </Link>
-            </li> */}
             <li className="semiBold font15 pointer">
               <Link activeClass="active" style={{ padding: "10px 15px" }} to="projects" spy={true} smooth={true} offset={-80}>
                 Услуги
+              </Link>
+            </li>
+            <li className="semiBold font15 pointer">
+              <Link activeClass="active" style={{ padding: "10px 15px" }} to="services" spy={true} smooth={true} offset={-80}>
+                Лицензии
               </Link>
             </li>
             <li className="semiBold font15 pointer">

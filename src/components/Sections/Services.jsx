@@ -10,15 +10,19 @@ import AddImage2 from "../../assets/img/add/2.png";
 import AddImage3 from "../../assets/img/add/3.png";
 import AddImage4 from "../../assets/img/add/4.png";
 
+import LicensesCertificates from '../LicensesCertificates/LicensesCertificates.jsx'
+
 export default function Services() {
   return (
     <Wrapper id="services">
       <div className="lightBg" style={{ padding: "50px 0" }}>
+      <h1 className="font40 extraBold" style={{textAlign: 'center'}}>Наши лицензии</h1>
         <div className="container">
-          <ClientSlider />
+          {/* <ClientSlider /> */}
+          <LicensesCertificates/>
         </div>
       </div>
-      <div className="whiteBg" style={{ padding: "60px 0" }}>
+      {/* <div className="whiteBg" style={{ padding: "60px 0" }}>
         <div className="container">
           <HeaderInfo>
             <h1 className="font40 extraBold">Our Awesome Services</h1>
@@ -97,7 +101,7 @@ export default function Services() {
             </Advertising>
           </div>
         </div>
-      </div>
+      </div> */}
     </Wrapper>
   );
 }

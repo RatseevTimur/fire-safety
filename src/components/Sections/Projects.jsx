@@ -23,9 +23,9 @@ export default function Projects() {
         <div className="container">
           <HeaderInfo>
             <h1 className="font40 extraBold">Услуги</h1>
-            <p className="font13">
+            {/* <p className="font13">
               Предлагаем Вам комплекс услуг в области:
-            </p>
+            </p> */}
           </HeaderInfo>
           <div className="row textCenter">
             {/* <div className="col-xs-12 col-sm-6 col-md-6 col-lg-3">
@@ -150,17 +150,17 @@ export default function Projects() {
             </AddLeft>
             <AddRight style={{marginLeft: 20}}>
               <h4 className="font15 semiBold">ИНН 262608694060</h4>
-              <h4 className="font15 semiBold">ОГРН 320265100098691от 23 октября 2020 г.</h4>
+              <h4 className="font15 semiBold">ОГРН 320265100098691 от 23 октября 2020 г.</h4>
            
               <h2 className="font40 extraBold">Банковские реквизиты:</h2>
               <p className="font12">
-                р/с 40802810700001687424
+                р/с 40802810101500419818
                 <br/>
-                в АО "Тинькофф Банк" г. Москва
+                в банке ООО «Банк Точка» г. Москва 
                 <br/>
-                к/с 30101810145250000974
+                к/с 30101810745374525104
                 <br/>
-                БИК 044525974
+                БИК 044525104
               </p>
               <ButtonsRow className="flexNullCenter" style={{ margin: "30px 0" }}>
                 <div style={{ width: "190px" }}>

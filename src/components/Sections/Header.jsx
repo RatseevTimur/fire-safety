@@ -185,6 +185,9 @@ const Wrapper = styled.section`
   @media (max-width: 960px) {
     flex-direction: column;
   }
+  @media (max-width: 560px) {
+    flex-direction: column;
+  }
 `;
 const LeftSide = styled.div`
   width: 50%;
@@ -197,6 +200,7 @@ const LeftSide = styled.div`
   }
   @media (max-width: 560px) {
     margin: 80px 0 50px 0;
+    order: 2;
   }
 `;
 const RightSide = styled.div`
