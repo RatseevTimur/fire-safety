@@ -5,13 +5,13 @@ import styled from "styled-components";
 import ProjectBox from "../Elements/ProjectBox";
 import FullButton from "../Buttons/FullButton";
 // Assets
-import ProjectImg1 from "../../assets/img/projects/1.png";
-import ProjectImg2 from "../../assets/img/projects/каска.png";
-import ProjectImg3 from "../../assets/img/projects/планы.png";
+// import ProjectImg1 from "../../assets/img/projects/1.png";
+import ProjectImg2 from "../../assets/img/projects/каска.svg";
+import ProjectImg3 from "../../assets/img/projects/планы.svg";
 import ProjectImg4 from "../../assets/img/projects/монтаж.png";
 import ProjectImg5 from "../../assets/img/projects/категории.svg";
-import ProjectImg6 from "../../assets/img/projects/документы.png";
-import ProjectImg7 from "../../assets/img/projects/gost.png";
+import ProjectImg6 from "../../assets/img/projects/документы.svg";
+import ProjectImg7 from "../../assets/img/projects/gost.svg";
 import ProjectImg8 from "../../assets/img/firefighter-head.svg";
 import AddImage2 from "../../assets/img/add/add2.png";
 import PricingTable from "../Elements/PricingTable";
@@ -81,7 +81,7 @@ export default function Projects() {
           <div className="row textCenter">
             <div className="col-xs-12 col-sm-6 col-md-6 col-lg-3">
               <ProjectBox
-                img={require('../../assets/img/projects/расчеты.png')}
+                img={require('../../assets/img/projects/расчеты.svg')}
                 title="Расчеты"
                 text="Оформление расчета по оценке пожарного риска"
                 action={() => alert("clicked")}

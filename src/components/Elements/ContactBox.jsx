@@ -12,10 +12,10 @@ export default function BlogBox({ tag, title, text, action, data }) {
   //     </div>
   //   )
   // };
-  const context = ({tag}) =>{
+  const context = (tag) =>{
     switch (tag){
       case 'phone' : return 'tel:'
-      case 'whatsapp' : return 'https://wapp.click/'
+      case 'whatsapp' : return 'https://wa.me/'
       // case 'telegram' : 
       // <a href="telegram.me/@groupname">
       case 'mail' : return 'mailto:'
@@ -29,7 +29,7 @@ export default function BlogBox({ tag, title, text, action, data }) {
     <Wrapper className="whiteBg radius8 shadow">
       <div style={{textAlign: "center"}}>
         <a href={`${context(tag)}${data}`}>
-          <img src={require(`../../assets/img/${tag}.png`)} width={60}></img>
+          <img src={require(`../../assets/img/${tag}.svg`)} width={60}></img>
         </a>
       
         {/* <p className="font13" style={{ padding: "30px 0" }}>

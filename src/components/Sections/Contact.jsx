@@ -1,9 +1,20 @@
 import React from "react";
 import styled from "styled-components";
+import { Link, animateScroll as scroll, scrollSpy } from "react-scroll";
+
+import { Timeline } from 'primereact/timeline';
+import { Card } from 'primereact/card';
+import { Button } from 'primereact/button';
+
+import 'primeicons/primeicons.css';
+import 'primeflex/primeflex.css';  
+import 'primereact/resources/primereact.css';
+import 'primereact/resources/themes/lara-light-indigo/theme.css';
+
 // Assets
-import ContactImg1 from "../../assets/img/contact-1.png";
-import ContactImg2 from "../../assets/img/contact-2.png";
-import ContactImg3 from "../../assets/img/contact-3.png";
+// import ContactImg1 from "../../assets/img/contact-1.png";
+// import ContactImg2 from "../../assets/img/contact-2.png";
+// import ContactImg3 from "../../assets/img/contact-3.png";
 import ContactBox from "../Elements/ContactBox";
 
 // Components
@@ -17,11 +28,52 @@ import AddImage3 from "../../assets/img/add/3.png";
 import AddImage4 from "../../assets/img/add/4.png";
 
 export default function Contact() {
+
+  const events = [
+    { status: '1. Позвоните нам', 
+      date: 'Оставьте заявку и получите первичную консультацю', 
+      icon: 'pi pi-phone', color: '#9C27B0', /*image: 'game-controller.jpg'*/ 
+    },
+    { status: '2. Обсудим детали', 
+      date: 'Составим техническое задание и заключим договор', 
+      icon: 'pi pi-cog', color: '#673AB7' 
+    },
+    { status: '3. Выезд специалистов', 
+      date: 'Наши специалисты приедут к вам в согласованную дату для проведения работ', 
+      icon: 'pi pi-car', color: '#FF9800' 
+    },
+    { status: '4. Приемка работ', 
+      date: 'Приемка-сдача результата работ и передача пакета документов', 
+      icon: 'pi pi-thumbs-up', color: '#607D8B' 
+    }
+  ];
+
+  const customizedMarker = (item) => {
+    return (
+      <span className="flex w-2rem h-2rem align-items-center justify-content-center text-white border-circle z-1 shadow-1" style={{ backgroundColor: item.color }}>
+        <i className={item.icon}></i>
+      </span>
+    );
+  };
+
+  const customizedContent = (item) => {
+    return (
+      <Card title={item.status} /*subTitle={item.date}*/ style={{padding: 10, marginBottom: 10}}>
+        { item.image && <img src={`https://primefaces.org/cdn/primereact/images/product/${item.image}`} alt={item.name} width={200} className="shadow-1" />}
+        <p>{item.date}</p>
+
+        {item.status.includes('1.') && 
+        <Button label="Контакты" className="p-button-text" onClick={()=> scroll.scrollToBottom()}></Button>
+        }
+      </Card>
+    );
+  };
+
   const Callto = ({ phone, children }) => {
     return (
       <div className="contact-item">
         <a href={`tel:${phone}`}>{children}
-          <img src={require('../../assets/img/phone.png')} width={60}></img>{phone}
+          <img src={require('../../assets/img/phone.svg')} width={60}></img>{phone}
         </a>
       </div>
     )
@@ -30,44 +82,20 @@ export default function Contact() {
   return (
     <Wrapper id="contact">
 
-<div className="whiteBg" style={{ padding: "60px 0" }}>
-              <div className="container">
-                <HeaderInfo>
-                  <h1 className="font40 extraBold">Our Awesome Services</h1>
-                  <p className="font13">
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-                    <br />
-                    labore et dolore magna aliquyam erat, sed diam voluptua.
-                  </p>
-                </HeaderInfo>
-                <ServiceBoxRow className="flex">
-                  <ServiceBoxWrapper>
-                    <ServiceBox
-                      icon="roller"
-                      title="Graphic Design"
-                      subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
-                    />
-                  </ServiceBoxWrapper>
-                  <ServiceBoxWrapper>
-                    <ServiceBox
-                      icon="monitor"
-                      title="Web Design"
-                      subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore."
-                    />
-                  </ServiceBoxWrapper>
-                  <ServiceBoxWrapper>
-                    <ServiceBox
-                      icon="browser"
-                      title="Development"
-                      subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
-                    />
-                  </ServiceBoxWrapper>
-                  <ServiceBoxWrapper>
-                    <ServiceBox icon="printer" title="Print" subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor." />
-                  </ServiceBoxWrapper>
-                </ServiceBoxRow>
-              </div>
-            </div>
+      <div className="whiteBg" style={{ padding: "60px 0" }}>
+        <div className="container">
+          <HeaderInfo>
+            <h1 className="font40 extraBold">Этапы сотрудничества</h1>
+            <p className="font13">
+              Все пройдет всего в 4 этапа
+            </p>
+          </HeaderInfo>
+          <Timeline value={events} align={window.innerWidth >= 860 ? "alternate" : "left"} 
+            className="customized-timeline" marker={customizedMarker} content={customizedContent} 
+          />
+         
+        </div>
+      </div>
 
       <div className="lightBg">
         <div className="container">
@@ -108,7 +136,7 @@ export default function Contact() {
                     title="Whatsapp"
                     text="8(969)-115-01-01"
                     tag="whatsapp"
-                    data="89691150101"
+                    data="+79691150101"
                     // action={() => alert("clicked")}
                   />
                 </div>
