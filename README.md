@@ -1,5 +1,8 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Стильный+коммерческий+landingPage)](https://git.io/typing-svg)
 
+Немного ThreeJS, конечно же React, styled-components и т.д. 
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact)](https://github.com/RatseevTimur/fire-safety)
+
 <h2>expanded version(боевой вариант) - https://firesaf.ru/</h2>
 <h3>Реальный проект, для реального бизнеса</h3>
 
@@ -10,9 +13,6 @@
 
 <h3>Адаптивен</h3>
 <img width="328" alt="Снимок экрана 2024-01-27 в 00 48 06" src="https://github.com/RatseevTimur/fire-safety/assets/95998454/823b2357-52b9-41ee-8df2-373503ac810e">
-
-Немного ThreeJS, конечно же React, styled 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact)](https://github.com/RatseevTimur/fire-safety)
 
 ### Установка зависимостей
 Для установки зависимостей, выполните команду:
