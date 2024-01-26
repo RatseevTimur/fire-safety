@@ -1,6 +1,7 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Стильный+коммерческий+landingPage)](https://git.io/typing-svg)
 
 Немного ThreeJS, конечно же React, styled-components и т.д. 
+<br/>
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact)](https://github.com/RatseevTimur/fire-safety)
 
 <h2>expanded version(боевой вариант) - https://firesaf.ru/</h2>
