@@ -4,10 +4,13 @@
 Реальный проект, для реального бизнеса
 
 <img width="500" alt="Снимок экрана 2024-01-27 в 00 45 52" src="https://github.com/RatseevTimur/fire-safety/assets/95998454/eeb1f2eb-2277-4d7c-9cc5-06dcbcd662f0">
+<br/>
 <img width="500" alt="Снимок экрана 2024-01-27 в 00 47 07" src="https://github.com/RatseevTimur/fire-safety/assets/95998454/bdc7d156-91a4-4700-a233-7fdcd38027d1">
 
 <h3>Адаптивен</h3>
 <img width="328" alt="Снимок экрана 2024-01-27 в 00 48 06" src="https://github.com/RatseevTimur/fire-safety/assets/95998454/823b2357-52b9-41ee-8df2-373503ac810e">
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
 ### Установка зависимостей
 Для установки зависимостей, выполните команду:
